@@ -1,0 +1,36 @@
+.title{
+    display: block;
+    font: bolder;
+    font-style: italic;
+    text-align: center;
+    color: gold;
+    font-size: 70px;
+}
+body{
+    background-color: black;
+}
+.menu{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: rgb(217, 151, 30);
+    font-size: larger;
+}
+.subtitle{
+    color: rgb(252, 249, 44);
+}
+dl{
+    border: 1px dotted goldenrod;
+    box-sizing: border-box ;
+    box-shadow: 3px 3px;
+}
+a{
+    color: rgb(217, 151, 30);
+    font-size: larger;
+}
+.return{
+    color: wheat;
+    font-size: larger;
+    margin-left: 40%;
+}

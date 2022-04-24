@@ -1,0 +1,59 @@
+.Allinputs{
+    background-color: black;
+   display:flex;
+   font-size: 30px;
+   flex-direction: column;
+   color: gold;
+   gap: 10px;
+   align-items: flex-start;
+   justify-content: center;
+   padding-left: 30%;
+
+}
+input{
+    width: 50%;
+    height: 60%;
+}
+.subheading{
+    padding-left: 30%;
+    color: gold;
+    font-size: 25px;
+}
+button{
+    background-color: gold;
+    color: black;
+   font-size: 20px;
+    border-radius: 5px;
+    width: 40%;
+    height: 50px;
+    padding: 10px 10px 10px 10px 10px;
+    border: 10px solid black;
+    
+}
+button:hover{
+    background-color: rgb(0, 255, 76);
+    color: black;
+    border: 10px solid black;
+    font-size: 20px;
+    border-radius: 5px;
+    width: 40%;
+    height: 50px;
+    padding: 10px 10px 10px 10px 10px;
+    cursor: pointer;
+}
+.message{
+    padding-left: 10%;
+    font-size: 30px;
+    color: gold;
+}
+body{
+    background-color: black;
+}
+.return{
+    color: wheat;
+    font-size: larger;
+    margin-left: 40%;
+}
+a{
+    color: gold;
+}

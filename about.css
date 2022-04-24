@@ -1,0 +1,31 @@
+body{
+    background-color: black;
+}
+.para{
+    color: wheat;
+    font-size: larger;
+}
+.title{
+    display: block;
+    font: bolder;
+    font-style: italic;
+    text-align: center;
+    color: gold;
+    font-size: 70px;
+}
+.address{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: rgb(217, 151, 30);
+    font-size: larger;
+}
+a{
+    color: rgb(217, 151, 30);
+    font-size: larger;
+}
+.return{
+    color: wheat;
+    font-size: larger;
+    margin-left: 40%;
+}

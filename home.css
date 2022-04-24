@@ -1,0 +1,48 @@
+.main-buttons {
+    display:flex;
+    flex-direction: row;
+    gap: 50px;
+    background-color:black;
+    height: 50px;
+    border: none;
+  
+    
+
+}
+.subtitle{
+    padding-left: 40%;
+}
+  a{
+    /*background-color: black;*/
+    height: fit-content;
+    width: fit-content;
+   font-style: initial;
+    font-size: 40px;
+    color :gold;
+    border:none;
+    box-sizing: border-box;
+}
+.main-image{
+    position:relative;
+}
+
+.title{
+    position: absolute;
+    font-style: italic;
+    color: gold;
+    padding-left: 10%;
+    padding-top: 5%;
+   text-align: center;
+    font-size: 65px;
+
+
+
+}
+.background-image{
+    width:100%;
+    height: auto;
+}
+.subtitle{
+    position: absolute;
+    color: aquamarine;
+}
