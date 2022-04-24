@@ -13,3 +13,5 @@ It has the options named Home,Menu,About,Book a table  at the top of the website
 
 "Book a table" lands to the page where the user can fill the form to book a table.Form includes the Name,Phone Number,Number of seats,Date,Special requirements.
 Submiting the form lands to the page showing table has booked.
+
+Technical Stack used : HTML , CSS.
