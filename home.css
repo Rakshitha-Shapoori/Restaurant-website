@@ -1,3 +1,4 @@
+
 .main-buttons {
     display:flex;
     flex-direction: row;
@@ -5,10 +6,10 @@
     background-color:black;
     height: 50px;
     border: none;
-  
-    
+   
 
 }
+
 .subtitle{
     padding-left: 40%;
 }
@@ -24,6 +25,7 @@
 }
 .main-image{
     position:relative;
+   
 }
 
 .title{

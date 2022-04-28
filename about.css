@@ -1,9 +1,23 @@
+
+.main-buttons {
+    display:flex;
+    flex-direction: row;
+    gap: 50px;
+    background-color:black;
+    height: 50px;
+    border: none;
+  
+    
+
+}
 body{
     background-color: black;
 }
 .para{
     color: wheat;
-    font-size: larger;
+    font-size: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 .title{
     display: block;
@@ -20,6 +34,10 @@ body{
     color: rgb(217, 151, 30);
     font-size: larger;
 }
+dt{
+    color: gold;
+    text-align: center;
+}
 a{
     color: rgb(217, 151, 30);
     font-size: larger;
@@ -28,4 +46,14 @@ a{
     color: wheat;
     font-size: larger;
     margin-left: 40%;
+}
+.main-buttons a{
+    /*background-color: black;*/
+    height: fit-content;
+    width: fit-content;
+   font-style: initial;
+    font-size: 40px;
+    color :gold;
+    border:none;
+    box-sizing: border-box;
 }

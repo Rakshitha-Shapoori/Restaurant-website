@@ -57,3 +57,24 @@ body{
 a{
     color: gold;
 }
+.main-buttons {
+    display:flex;
+    flex-direction: row;
+    gap: 50px;
+    background-color:black;
+    height: 50px;
+    border: none;
+  
+    
+
+}
+.main-buttons a{
+    /*background-color: black;*/
+    height: fit-content;
+    width: fit-content;
+   font-style: initial;
+    font-size: 40px;
+    color :gold;
+    border:none;
+    box-sizing: border-box;
+}

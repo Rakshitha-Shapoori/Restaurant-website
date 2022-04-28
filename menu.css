@@ -16,11 +16,14 @@ body{
     justify-content: space-evenly;
     color: rgb(217, 151, 30);
     font-size: larger;
+   
 }
 .subtitle{
     color: rgb(252, 249, 44);
 }
 dl{
+    padding: 10px 30px 20px 10px;
+    text-align: left;
     border: 1px dotted goldenrod;
     box-sizing: border-box ;
     box-shadow: 3px 3px;
@@ -33,4 +36,33 @@ a{
     color: wheat;
     font-size: larger;
     margin-left: 40%;
+}
+.main-buttons {
+    display:flex;
+    flex-direction: row;
+    gap: 50px;
+    background-color:black;
+    height: 50px;
+    border: none;
+  
+    
+
+}
+dt{
+    color: gold;
+    text-align: center;
+}
+dl{
+    color: rgb(217, 151, 30);
+    text-align: center;
+}
+.main-buttons a{
+    /*background-color: black;*/
+    height: fit-content;
+    width: fit-content;
+   font-style: initial;
+    font-size: 40px;
+    color :gold;
+    border:none;
+    box-sizing: border-box;
 }
